@@ -1,0 +1,39 @@
+A) vim dockerfile
+  
+  FROM ubuntu
+
+  RUN apt-get update -y
+  RUN apt install nginx -y
+
+  WORKDIR /var/www/html
+
+  COPY index.html /var/www/html
+
+  CMD ["nginx", "-g" "daemon off;"]
+
+************************************
+************************************
+************************************
+************************************
+
+B) docker build -t nginx /mnt
+
+C) docker images -a  = all images show in list to tag and untag
+
+D) docker ps -a  = all container show in list BUT hidden be show  
+
+E) docker run -itd -name be -p 80:80 nginx  = images from create by container create 
+
+F) docker commit CONTAINER_ID = untag images create
+
+G) docker login -u USER_NAME
+
+H) docker tag IMAGE_ID USER_NAME/REPO:TAG  = docker images from to docker tag allocate
+
+I) docker push USER_NAME/REPO:TAG  = docker images from to docker hub images create
+
+*************************************************************************************
+**********************************************************************************
+******************************************************************************************
+********************************************************************************************
+************************************************************************************************
