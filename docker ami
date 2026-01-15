@@ -1,0 +1,26 @@
+apt update -y
+
+docker installation
+
+docker run -P -d nginx
+
+vim index.html
+
+docker cp index.html CONTAINER ID:/usr/share/nginx/html  = index.html file copy to /usr/share/nginx/html
+
+docker commit CONTAINER ID  = container to image create
+
+docker images  = docker images show in tag 
+
+docker images -a  = docker images show in tag and untag
+
+docker login -u USERNAME
+  
+docker tag IMAGEIID USERNAME/REPOSITORY:TAG
+  
+docker push USERNAME/REPOSITORY:TAG
+
+docker rmi -f IMAGE-ID
+
+docker run -P -d USERNAME/REPO:TAG  = docker image from to docker container create DOCKER HUB ACCOUNT TO 
+  
