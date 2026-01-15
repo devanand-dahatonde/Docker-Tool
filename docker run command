@@ -1,0 +1,61 @@
+  docker run -d nginx  = create container ami to nginx
+
+  docker ps  = running containers is to list
+
+  docker ps -a  = running containers for all list to daemon process docker
+  
+  docker inspect CONTAINERID  = running containers for all details
+
+  curl PRIVATE IP
+    
+  docker run -p 80:80 -d nginx  = create container to 80port range allocate
+  docker run -p 85:80 -d nginx  = create container to 85port range allocate
+  docker run -p -d 84:80 nginx 
+    
+  docker stop CONTAINER ID   = container stop 
+
+  docker start CONTAINER ID  = container start
+
+  docker rm CONTAINER ID     = stop container remove
+
+  docker rm -f CONTAINER ID  = start container remove
+
+  docker run -p -d nginx     = container create to port allocate
+
+  docker --version  = check docker version in 29.1.3
+
+  docker -exec -it CONTAINER ID bash = enter to container
+
+  vim index.html = index.html file create
+
+  docker cp index.html CONTAINER ID:/usr/local/apache2/htdocs  = index.html file in copy to htdocs 
+  docker cp index.html CONTAINER ID:/usr/share/nginx/html      = index.html file tn copy to html
+
+  docker images = container images show in list
+
+  docker logs CONTAINER ID = 
+
+  docker status CONTAINER ID = resources and images, and PIDS , CPU , shows how status used in work
+
+  ps -elf  = container running processes for all
+
+  docker run -P --name devanand -d nginx  = create container a new name 
+
+  docker rename OLDnAME NEWnAME  = RENAME FOR CONTAINER NAME
+
+  docker ps -aq  = only container id in shows
+
+  docker image rm IMAGE ID  =  docker image for delete
+
+  docker pull nginx  = network to download image
+  docker pull mysql  = network to download image
+  docker pull alpine = network to download image  
+
+    
+    
+
+
+
+
+
+  
