@@ -1,0 +1,15 @@
+docker volume create VOLUME_NAME  = create docker volume
+
+docker volume list  = docker volume list in show
+
+docker run -v VOLUME_NAME:/usr/share/nginx/html -d -P nginx   = container create and volume be ammidetley attach
+
+docker ps = list all docker show
+
+docker inspect CONTAINER_ID  = container all information in details show
+
+docker rm -f CONTAINER_ID  = container delete
+
+docker run -v VOLUME_NAME:/usr/local/apache2/htdocs -d -P httpd  = container create and volume be ammidetley attach
+
+  ls /var/lib/docker/volume 
