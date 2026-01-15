@@ -1,0 +1,19 @@
+docker network list  = to list all the network
+
+docker network create --subnet "CIDR BLOCK" NETWORK NAME
+  ex 10.0.0.0/20 =CIDR BLOCK
+
+docker inspect NETWORK ID  = all network information show या कमांडचा वापर एखाद्या विशिष्ट डॉकर नेटवर्कची सविस्तर माहिती (Detailed Configuration) पाहण्यासाठी केला जातो
+
+docker inspect IMAGE ID  = all network image information show
+
+docker network purne  = all unused and used network delete
+
+docker network rm = all unused and used network delete  
+
+docker image purne = all unused images delete
+
+docker images rm = all unused and used images delete  
+
+**********************************************************
+  *******************************************************
