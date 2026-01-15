@@ -1,0 +1,7 @@
+docker pull nginx  = network to download only image create
+
+docker save -o nginx.tar IMAGE ID  = docker image from to nginx.tar file create
+
+docker load -i nginx.tar  = untag docker images create from upto nginx.tar file 
+
+docker images = docker tag images show in list   
